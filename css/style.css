@@ -17,13 +17,14 @@ body{
 
 .menu > li{
     display: inline-block;
+    animation: all .3s;
 }
 
 .menu > li > a{
+    font-family: 'Prompt', sans-serif;
     display: block;
     padding:15px 20px;
     color: #ffff;
-    font-family: 'Open Sans';
     text-decoration: none;
 }
 
@@ -32,7 +33,6 @@ body{
      transition: all .3s;
 }
 
-/*SUBMENU*/
 
 .submenu{
     position: absolute;
@@ -53,3 +53,4 @@ body{
     display:block;
     transition: all .3s;
 }
+
